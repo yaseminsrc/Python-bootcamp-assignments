@@ -11,6 +11,8 @@ gider = float(input("Giderinizi giriniz: "))
 kalan = gelir - gider
 print("Kalan para: ", kalan)
 
+
+# Fonksiyon ile yaparsak
 def budget_calculate():
   income = float(input("Income: "))
   expenses = float(input("Expenses: "))
