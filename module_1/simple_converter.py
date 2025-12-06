@@ -5,18 +5,18 @@ Simple Converter: Convert Meters to Feet, Kilograms to Pounds
         ✔ 1 meter = 3.28084 feet    
         ✔ 1 kilogram = 2.20462 pound
 """
-
 metre = float(input("Metre değeri: "))
 feet = metre * 3.28084
 
 print(f"{metre} metre = {feet:.2f} feet")
-
 
 kg = float(input("Kilogram değeri: "))
 pound = kg * 2.20462
 
 print(f"{kg} kilogram = {pound:.2f} pound'dur")
 
+
+# if-elif ile yaparsak
 print("1 : Metre -> Feet")
 print("2 : Feet -> Metre")
 print("3 : Kilogram -> Pound")
@@ -39,7 +39,9 @@ elif seçim ==3:
 elif seçim ==4:
   pound = float(input("Pound: "))
   print("Kilogram: ", pound / 2.20462)
+        
 
+# Fonksiyon ile yaparsak
 def dönüştür():
   print("1- Metre → Feet\n2- Feet → Metre\n3- Kilogram → Pound\n4- Pound → Kilogram")
   seçim = int(input("Seçiminiz: "))
